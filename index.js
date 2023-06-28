@@ -3,7 +3,7 @@ var path=require("path");
 var session=require("express-session");
 var usuariosRutas=require("./rutas/usuarios");
 require("dotenv").config();
-
+//actualizacion de la aplicacion
 var app=express();
 app.set("view engine", "ejs");
 app.use("/web",express.static(path.join(__dirname,"/web")));
